@@ -23,7 +23,7 @@ grid::grid(int m, int n)
 
 grid::~grid()
 {
-	for (int i = 0; i < size.getY(); i++)
+	for (int i = 0; i < size.getX(); i++)
 		delete[] matrix[i];
 	delete[] matrix;
 }
